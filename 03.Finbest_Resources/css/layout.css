@@ -1,0 +1,171 @@
+
+.site{
+    background-color: #F3F5FA;
+}
+
+.nav-menu{
+    padding: 20px;
+}
+
+.navbar-left{
+    margin-left: 5em;
+}
+
+.navbar-right{
+    margin-right: 5em;
+}
+
+.corporate-lies1,
+.corporate-lies2{
+    background-color: #ADE2DF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corporate-lies2{
+    padding: 0 10em;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5em;
+}
+
+.pricing-plans{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-plans{
+    text-align: center;
+}
+
+.pricing-plans a{
+    text-decoration: none;
+    background-color: #ADE2DF;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.pricing-plans h3{
+    padding-top: 10px;
+}
+
+.plans-list{
+    display: flex;
+    padding: 20px 0;
+}
+
+.plans-list .plan h4,
+.plans-list .contact h3{
+    text-align: center;
+}
+
+.plans-list .plan{
+    padding: 2%;
+}
+
+.plans-list .plan.plus{
+    border-left: 1px dotted grey;
+    border-right: 1px dotted grey;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    background-color: #ADE2DF;
+}
+
+.plans-list .plan li{
+    display: block;
+    font-size: 11px;
+    padding: 2px;
+}
+
+.plan p{
+    font-size: 11px;
+}
+
+.price {
+    display: flex;
+}
+
+.price p{
+    align-self: center;
+}
+
+.plan ul::before{
+    display: flex;
+    border: 1px solid #DBDBDB;
+    content: "";
+}
+
+.plan .buy-button{
+    padding: 10px;
+    background-color: #ADE2DF;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.plans-list .contact{
+    display: flex;
+}
+
+.plans-list .contact li{
+    display: block;
+    font-size: 11px;
+    padding: 2px;
+    
+}
+
+.contact ul{
+    margin-bottom: 180px;
+}
+
+.plans-list .contact .button .contact-button{
+    padding: 12px 130px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    align-self: flex-end;
+}
+.plans-list{
+    border: solid 1px gray;
+}
+
+.pre-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em;
+    background-color: #ADE2DF;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+.pre-footer p,
+.pre-footer h1{
+    width: 60%;
+    text-align: center;
+}
+
+.pre-footer .buttons{
+    padding: 2em;
+}
+
+.footer{
+    padding: 10px;
+}

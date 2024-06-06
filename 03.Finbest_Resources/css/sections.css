@@ -1,0 +1,41 @@
+.corporate-lies1{
+    padding: 30px 10px;
+}
+
+.corporate-lies1 .buttons{
+    padding-top: 20px;
+}
+
+.download-button{
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    line-height: 1;
+}
+
+.stats{
+    padding: 5em 5em 5em 5em;
+    display: flex;
+}
+
+.stat-card{
+    padding: 5px;
+    gap: 1 0 30%;
+    text-align: center;
+    border-left: 1px solid #DBDBDB;
+    border-right: 1px solid #DBDBDB;
+}
+
+.corporate-lies2 .image{
+    display: inline-block;
+    width: 15em;
+}
+
+.corporate-lies2 img{
+    border: 2px dotted #DBDBDB;
+    width: 100%;
+    display: inline-block
+}
+

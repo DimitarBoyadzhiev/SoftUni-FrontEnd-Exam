@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font: 12px/1.5 'Inter', sans-serif;
+}
+
+body{
+    background-color: #D9D9D9;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container .cards-list{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card{
+    flex: 1 0 30%;
+    background: #D9D9D9;
+    border-bottom-right-radius: 0px solid #D9D9D9;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.card .ENTERPRISE{
+    font-weight: 500;
+    color: #595959;
+}
+
+.card p,
+.card h3{
+    padding: 5px 20px;
+}
+
+.card h3{
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #595959;
+}
+
+.card img{
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: 144px;
+}
+
+.card-footer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.to-end{
+    display: block;
+    justify-self: flex-end;
+}
+
+.last::after{
+    display: block;
+    border: 1px solid #515151;
+    content: "";
+    margin: 15px 5px 0 0;
+}
+
+.card .card-footer .small-photo{
+    display: inline-block;
+    border-radius: 50%;
+    width: 20%;
+    height: 50px;
+}
